@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 0px;
+
+  h1 {
+    background: #4b7355c5;          // verde inspirado na natureza
+    color: rgb(240, 240, 240);
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+  }
+}
+
+    ul {
+  list-style: disc;  // bolinha antes do item
+  padding: 20px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(140, 184, 91, 0.534);
+  border-bottom: 2px solid #4b7355;
+  font-size: 17px;
+font-style: bold;
+}
+
+a {
+  text-decoration: none;  // retirei o sublinhado da tag a
+  color: rgb(7, 58, 15);
+}
+
+  
+ 
+
+
+     h2 {
+      font-weight: 200px;
+      font-size: 20px;
+
+    }
+  
+  
+
+
+
+#btn1 {
+  background-color: rgba(255, 255, 255, 0.589);
+  border-radius: 6px;
+  padding: 8px 15px;
+  font-size: 13px;
+  cursor: pointer;
+  border: none;
+  color: rgb(7, 7, 7);
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+main {
+display: flex;
+
+
+  
+
+   .banner {
+    background: url("https://images7.alphacoders.com/135/thumb-1920-1354032.png") no-repeat center;
+   height: 60vh;
+   background-size: cover;
+   background-position: center;
+   }
+  }
+main div{
+  text-align: center;
+  margin: 20px;
+  font-size: 20px;
+  color: rgb(7, 58, 15);
+}
+
+   
+.filme {
+  display: flex;
+  flex-direction: row;
+  gap: 10px; /* espaço entre elas */
+  padding: 20px;
+  margin: 0px;
+  border-bottom: 2px solid #4b7355;
+  background-color: rgba(140, 184, 91, 0.534);
+}
+  
+  
+  .cards {
+    gap: 10px; /* espaço entre elas */
+    padding: 20px;
+    display: flex;
+  } 
+
+
+body { 
+font-family: 'Montserrat', sans-serif;
+}
+
+
+
+   img {
+    width: 200px;   // define largura fixa
+    height: 100px;
+  
+   } 
+  
+  
+    .info {
+      margin-left: 20px;
+      max-width: 400px;
+      text-align: justify;
+    }
+   
+
+
+
+
+
